@@ -1,0 +1,91 @@
+@media screen and (max-width:768px) {
+
+    /* css reponsive pour footer  */
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .div_input_button {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer_pages span {
+        margin-top: 20px;
+    }
+
+    /* responsive css pour categorie */
+    .categorie_boxS {
+        flex-direction: column;
+    }
+
+    .categorie {
+        height: auto;
+    }
+
+    .bgs {
+        width: 80%;
+    }
+
+    .categorie_text {
+        margin-left: 0;
+    }
+
+    .categorie_boxS p {
+        padding-top: 0;
+    }
+
+    /* responsive css pour top models */
+    .allcards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    /* responsive css pour reduction */
+
+    .reduction .text,
+    .reduction .image,
+    .reduction .button {
+        margin: 0;
+        margin-top: 20px;
+
+    }
+
+    .reduction {
+        width: 80%;
+    }
+
+    .reduction .image {
+
+        width: 20%;
+        margin-left: 20px;
+    }
+
+    .reduction .text {
+        width: 40%;
+    }
+
+    .reduction .button {
+        width: 25%;
+        margin-left: 10px;
+    }
+
+
+    /* responsive css pour client */
+
+    .client_box{
+        flex-direction: column;
+    }
+
+    .bg{
+        width: 80%;
+    }
+
+}

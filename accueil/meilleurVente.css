@@ -1,0 +1,119 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+.titre{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.texte{
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+.prix{
+    text-decoration: line-through;
+    color: rgb(101, 101, 101);
+}
+.prixpromo{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.btn{
+    border: solid 2px #000;
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 25px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+/* .reduction{
+    height: 100px;
+    width: 71%;
+    margin-left: 185px;
+    margin-top: 50px;
+    display: flex;
+    background-color: #aa6767;
+} */
+
+.image{
+
+    height: 60px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left:200px ;
+}
+.image img{
+    height: 60px;
+    width: 100%;
+}
+.text{
+
+    height: 60px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.button{
+    
+    height: 60px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+.button button{
+    font-size: 9px;
+    font-weight: bold;
+    border: 1px solid black;
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.title{
+    font-weight: bold;
+    display: block;
+    font-size: 26px;
+    font-family: roboto;
+    text-align: right;
+}
+.article{
+    
+    display: block;
+    font-family: roboto;
+    text-align: right;
+}
+
+
+/* retouche */
+
+.allcards{
+
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    
+
+}
+.card{
+    width: 24%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.card img{
+    width: 100%;
+    height: 230px;
+}
+
+
+.card_text{
+
+    width: 98%;
+    margin-left: 10px;
+    
+}

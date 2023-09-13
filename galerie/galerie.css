@@ -1,0 +1,181 @@
+
+.image{
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+.image img {
+    width: 100%;
+    height: 300px;
+}
+.texte h1{
+    margin-top: -200px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.texte p{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+.title h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: rgb(69, 62, 62); */
+}
+.photo{
+    width: 24%;
+    height: 250px;
+    background-color: #673EE5;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.photo img{
+    width: 100%;
+    height: 250px;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 270px;
+    margin: 0 auto;
+
+}
+.photos {
+    width: 24%;
+    height: 250px;
+    background-color: #673EE5;
+    margin: 0 auto;
+}
+.photos img {
+    width: 100%;
+    height: 250px;
+}
+.select{
+    display: flex;
+    margin-left: 38px;
+    width: 40%;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+}
+.select button {
+    font-size: 16px; 
+    background-color: white;
+    border-radius: 30px;
+}
+.select .all button {
+    height: 35px;
+    width: 85px;
+    background-color: #000000;
+    border: none;
+    color: white;
+}
+.select .mode button {
+    height: 35px;
+    width: 110px;
+    border: solid 2px #000000;
+}
+.select .maison button {
+    height: 35px;
+    width: 120px;
+    border: solid 2px #000000;
+}
+.select .electronique button {
+    height: 35px;
+    width: 150px;
+    border: solid 2px #000000;
+}
+.select button:hover{
+    background-color: #000000;
+    color: white;
+}
+
+/* debut css pour le footer */
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: #E8E8E8;
+    margin-top: 50px;
+    display: flex;
+    /* padding: 0px 50px; */
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 20px 0;
+}
+
+footer .footer_logo span {
+    font-size: 40px;
+
+}
+
+footer .footer_logo .footer_icons {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+footer .footer_pages,
+footer .footer_policy,
+footer .footer_categories,
+footer .footer_s_inscrire {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .footer_s_inscrire input {
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+
+/* footer .footer_s_inscrire .div_input_button input::placeholder{
+    color: black;
+    font-weight: bold;
+   
+} */
+footer .footer_s_inscrire #newsletter_text,
+footer .footer_s_inscrire input,
+footer .div_input_button button {
+    margin: 20px 0;
+}
+
+footer .div_input_button {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: start;
+}
+
+footer .div_input_button button {
+    height: 40px;
+    border: 1px black solid;
+    color: white;
+    background-color: black;
+    padding: 5px;
+
+}
+
+
+#newsletter_text {
+    font-size: 16px;
+}
